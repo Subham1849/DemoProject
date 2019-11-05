@@ -1,0 +1,23 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,tab_Administration,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,GWBC-AdminSettings
+2,Browser,Send Keys [<Data>]  to Window.,sendKeysToIEWindow,@Alt+M,,
+3,pane_BSettings,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,GWBC-AdminSettings
+4,pane_BSettings,"Click the [<Object>] ",Click,,,GWBC-AdminSettings
+5,label_ActPattern,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,GWBC-AdminSettings
+6,pane_PayPlan,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,GWBC-AdminSettings
+7,pane_PayPlan,"Click the [<Object>] ",Click,,,GWBC-AdminSettings
+8,label_PayPlan,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,GWBC-PayPlanClone
+9,Link_SelectPay,Enter the value [<Data>] in the Field [<Object>],GWRandomClick,@Test PayPlan,,GWBC-PayPlanClone
+10,label_PayDetail,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,GWBC-PayPlanClone
+11,button_Edit,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,GWBC-PayPlanClone
+12,button_Edit,"Click the [<Object>] ",Click,,,GWBC-PayPlanClone
+13,button_Update,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,GWBC-PayPlanClone
+14,input_Install,Enter the value [<Data>] in the Field [<Object>],GWSet,@12,,GWBC-PayPlanClone
+15,button_Update,"Click the [<Object>] ",Click,,,GWBC-PayPlanClone
+16,button_Edit,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,GWBC-PayPlanClone
+17,logo_BC,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,GWBC-GeneralElements
+18,logo_BC,Hover over the [<Object>] element,mouseOverElement,,,GWBC-GeneralElements
+19,logo_BC,"Click the [<Object>] ",Click,,,GWBC-GeneralElements
+20,link_UptoPPLink,Hover over the [<Object>] element,mouseOverElement,,,GWBC-PayPlanClone
+21,link_UptoPPLink,"Click the [<Object>] ",Click,,,GWBC-PayPlanClone
+22,label_PayDetail,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,GWBC-PayPlanClone
